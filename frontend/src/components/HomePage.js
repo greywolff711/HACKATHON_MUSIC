@@ -33,9 +33,7 @@ export default class HomePage extends Component {
     return (
       <Grid container spacing={3}>
         <Grid item xs={12} align="center">
-          <Typography variant="h3" compact="h3">
-            House Party
-          </Typography>
+          <Typography variant="h3" compact="h3">Among Us Party</Typography>
         </Grid>
         <Grid item xs={12} align="center">
           <ButtonGroup disableElevation variant="contained" color="primary">
@@ -69,7 +67,7 @@ function Home(){
     <Grid container spacing={3}>
       <Grid item xs={12} align="center">
         <Typography variant="h3" compact="h3">
-          House Party
+          Among Us Party
         </Typography>
       </Grid>
       <Grid item xs={12} align="center">
